@@ -1,0 +1,25 @@
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>☕︎Coffee Shop - Register</title>
+<link rel="stylesheet" href="../CSS/Main.css" type="text/css">
+<link rel="stylesheet" href="../CSS/Designs.css" type="text/css">
+<link rel="stylesheet" href="../CSS/Custom/LoginAndRegister.css" type="text/css">
+</head>
+<body>
+    <div id="register-container">
+        <header><a href="Index.html">🏠︎Home</a></header>
+        <h1>Register Now</h1>
+        <form action="../Users/Register.php" method="POST">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" class="input" placeholder="Enter your Username" required>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" class="input" placeholder="Create a Password" required>
+
+            <p>Already have an account?<a href="Login.html"> Login Now!</a></p>
+            <button type="submit" id="submitbtn">Register</button>
+        </form>
+    </div>
+</body>
+</html>

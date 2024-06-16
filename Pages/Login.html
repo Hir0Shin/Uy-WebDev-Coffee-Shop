@@ -1,0 +1,25 @@
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>☕︎Coffee Shop - Login</title>
+<link rel="stylesheet" href="../CSS/Main.css" type="text/css">
+<link rel="stylesheet" href="../CSS/Custom/LoginAndRegister.css" type="text/css">
+</head>
+<body>
+    <div id="login-container">
+        <header><a href="Index.html">🏠︎Home</a></header>
+        <h1>Login</h1>
+        <form action="../Users/Login.php" method="POST">
+            <label for="username">Username:</label>
+            <input type="text" name="username" id="username" class="input" placeholder="Enter your Username" required>
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password" class="input" placeholder="Enter your Password" required>
+
+            <p>Don't have an account yet? <a href="Register.html">Register Now</a>!</p>
+
+            <button type="submit" id="submitbtn">Login</button>
+        </form>
+    </div>
+</body>
+</html>

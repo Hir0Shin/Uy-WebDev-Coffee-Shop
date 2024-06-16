@@ -1,0 +1,21 @@
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>☕︎Coffee Shop - Delete Order</title>
+<link rel="stylesheet" href="../CSS/Main.css" type="text/css">
+<link rel="stylesheet" href="../CSS/Custom/RetrieveAndDelete.css" type="text/css">
+</head> 
+<body>
+    <div id="delete-container">
+        <header><a href="Menu.html">🏠︎Home</a></header>
+        <h1>☕︎ Delete Coffee Order</h1>
+        <form action="../Orders/Delete.php">
+            <label for="order_id">Order ID:</label>
+            <input type="text" id="order_id" name="order_id" placeholder="Enter your Order ID" pattern="\d+" required>
+            <button type="submit" class="submit">Delete Order</button>
+        </form>
+        <br/>
+    </div>
+</body>
+</html>
