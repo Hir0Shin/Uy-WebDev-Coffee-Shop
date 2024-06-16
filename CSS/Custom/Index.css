@@ -1,0 +1,48 @@
+/* CUSTOMIZED CSS FOR INDEX HTML */
+
+/* CONTAINER AND TEXT INSIDE */
+#index-container {
+    height: 400px;
+    margin: auto auto auto auto;
+    position: relative;
+    font-family: 'Courier New', monospace;
+    max-width: 95%;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: aliceblue;
+}
+
+.head {
+    font-family: 'Courier New', monospace;
+    font-weight: bolder;
+    text-align: center;
+}
+
+#welcome p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#aboutus p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#aboutus p:nth-child(2) {
+    margin-top: 35px;
+}
+
+
+/* BUTTON DESIGN */
+button {
+    margin-top: 30px;
+    width: 20%;
+    font-family: 'Courier New', monospace;
+    font-weight: bold;
+    font-size: 20px;
+    color: #000;
+    background: #E6BF83;
+    padding: 5px 3px 5px 3px;
+    border: transparent;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}

@@ -1,0 +1,91 @@
+/* CUSTOMIZED CSS FOR MENU HTML */
+
+#menu-container {
+    max-width: fit-content;
+    margin: auto auto auto auto;
+    position: relative;
+    font-family: 'Courier New', monospace;
+    padding-top: 1px;
+    padding-bottom: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    border-radius: 5px;
+    background-color: aliceblue;
+}
+
+h1 {
+    font-family: 'Courier New', monospace;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* UL LIST */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+/* LIST NAME DESIGNS */
+
+/* SHOW COFFEE ORDERS */
+#A {
+    color: #B5651D;
+}
+#A:visited {
+    text-decoration: none;
+}
+
+/* RETRIEVE COFFEE ORDER */
+#B {
+    color: #FBB117;
+}
+#B:visited {
+    text-decoration: none;
+}
+
+/* CREATE COFFEE ORDER */
+#C {
+    color: #3F9B0B;
+}
+#C:visited {
+    text-decoration: none;
+}
+
+/* UPDATE EXISTING ORDER */
+#D {
+    color: #0020C2;
+}
+#D:visited {
+    text-decoration: none;
+}
+
+/* DELETE COFFEE ORDER */
+#E {
+    color: #000;
+}
+#E:visited {
+    text-decoration: none;
+}
+
+/* LOGOUT */
+#F {
+    color: #F70D1A;
+}
+#F:visited {
+    text-decoration: none;
+}
+
+/* LIST NAME HOVER */
+ul li a span:hover {
+    text-decoration: underline;
+}
