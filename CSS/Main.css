@@ -1,0 +1,60 @@
+/* DEFAULT CSS */
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: antiquewhite;
+}
+
+h1 {
+    margin: 20px 0 10px 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-align: center;
+}
+
+#container {
+    max-width: 85%;
+    margin: 0 auto;
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: auto auto auto auto;
+    position: relative;
+    font-family: 'Courier New', monospace;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+    background-color: #FFF8E7;
+}
+
+.summary {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: aliceblue;
+    border: 2px solid #000;
+    border-radius: 3px;
+}
+
+button {
+    max-width: fit-content;
+    font-family: 'Courier New', monospace;
+    font-weight: bold;
+    font-size: 20px;
+    color: #000;
+    background: #E6BF83;
+    padding: 5px 3px 5px 3px;
+    border: transparent;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
